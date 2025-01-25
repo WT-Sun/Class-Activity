@@ -1,1 +1,0 @@
-(()=>{"use strict";document.getElementById("feedback-form").addEventListener("submit",(e=>{e.preventDefault();const t=document.getElementById("name").value,n=document.getElementById("email").value,d=document.getElementById("rating").value,l=document.getElementById("comments").value;t&&n&&d&&l?alert("Thank you for your feedback!"):alert("All fields are required!")}))})();
